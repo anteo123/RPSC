@@ -24,7 +24,7 @@ function playRound(playerSelection, computerSelection) {
       return "It's a tie! Both players chose Scissors.";
     }
   } else {
-    return "Invalid selection. Choose either Rock, Paper, or Scissors.";
+    return game();
   }
 }
 // let playerSelection = "paper";
